@@ -5,6 +5,8 @@ BOT_NAME = 'price_monitor'
 SPIDER_MODULES = ['price_monitor.spiders']
 NEWSPIDER_MODULE = 'price_monitor.spiders'
 
+USER_AGENT='my-price-monitor'
+
 ROBOTSTXT_OBEY = True
 
 SHUB_KEY = os.getenv('$SHUB_KEY')
